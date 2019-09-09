@@ -13,7 +13,7 @@ echo Git commit -m "Alter File"
 echo Git push origin master'''
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             echo 'Build Environment\'s'
             SWEAGLEExport(actionName: 'GetConfig', mdsName: 'Client-PRD', fileLocation: 'https://github.com/BRSweagle/JenkinsDeploy/Client-PRD', exporter: 'all', format: 'JSON')
