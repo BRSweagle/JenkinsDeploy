@@ -16,7 +16,7 @@ echo Git push origin master'''
         stage('error') {
           steps {
             echo 'Build Environment\'s'
-            SWEAGLEExport(actionName: 'GetConfig', mdsName: 'Client-PRD', fileLocation: 'https://github.com/BRSweagle/JenkinsDeploy/Client-PRD', exporter: 'all', format: 'JSON')
+            SWEAGLEExport(actionName: 'GetConfig', mdsName: 'Client-PRD', fileLocation: 'https://github.com/BRSweagle/JenkinsDeploy/Client-PRD.yaml', exporter: 'all', format: 'yaml')
           }
         }
       }
