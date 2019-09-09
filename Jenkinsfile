@@ -15,8 +15,8 @@ pipeline {
         }
         stage('push') {
           steps {
-            sh '''git push
-git commit'''
+            sh '''echo Git commit -m "Alter File"
+echo Git push origin master'''
           }
         }
       }
