@@ -13,6 +13,12 @@ pipeline {
             sh 'git pull'
           }
         }
+        stage('push') {
+          steps {
+            sh '''git push
+git commit'''
+          }
+        }
       }
     }
   }
