@@ -1,0 +1,60 @@
+---
+PRD:
+  sampleSimple:
+    DESCRIPTION:
+      ADDRESS:
+        PORT: "1521"
+        PROTOCOL: "tcp"
+        HOST: "host1"
+      CONNECT_DATA:
+        SERVICE_NAME: "myoracledb.example.com"
+    DB.Name: "Ora1"
+  core:
+    TST.host.env1:
+      host.Port: "444"
+      host.instance: "Test"
+      host.URL: "https://internal.env1:443"
+      ip.internal: "200.223.546.787"
+    Enabled: "true"
+    Current:
+      core: "war.3.2.4"
+      env.elasticsearch.port: "1453"
+      env.elasticsearch.url: ""
+      version: "3.2.4"
+    PRD.host.env1:
+      host.Port: "443"
+      host.instance: "Live"
+      host.URL: "https://prd.hosted.env2:443"
+      ip.internal: "200.200.304.11"
+  artifact.active: "true"
+  component.name: "Core3"
+  versions:
+    ConnectionDetails:
+      site_name: "sqlwebadmin_site"
+      app_pool: "sqlwebadmin_pool"
+      port: "8098"
+  artifact.buildName: "Infinity_CoreMain"
+  Version: "1.0"
+  ServerName: "Server1"
+  WebClientDetails:
+    appFirewallIP: "192.168.2.4"
+    env.db.schema: "mdm23"
+    appPassword: "testing"
+    env.core.enabled: "true"
+    env.dataloader.install.path: "/opt/SWEAGLE"
+    appName: "WebPortal4"
+    applocalMail: "localresponder@sweagle.com"
+    appPort: "8090"
+    appUsername: "Admin"
+    info.loglevel: "4"
+    env.core.tracking.file: "/opt/SWEAGLE/logs/sweagl_core.log"
+    appEnabled: "false"
+    env.core.logging.file: "/opt/SWEAGLE/logs/sweagl_core.log"
+    appEmail: "Admin@sweagle.com"
+    env.core.url: "https://localhost"
+    env.core.install.path: "/opt/SWEAGLE"
+    appDBName: "Ora1"
+    env.db.host: "MASDB"
+    env.active: "TRUE"
+  component.owner.team: "Scrum_top"
+  EOL.date: "1900-01-01"
