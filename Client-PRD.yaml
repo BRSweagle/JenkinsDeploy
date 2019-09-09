@@ -3,7 +3,7 @@ PRD:
   sampleSimple:
     DESCRIPTION:
       ADDRESS:
-        PORT: "1563"
+        PORT: "1521"
         PROTOCOL: "tcp"
         HOST: "host1"
       CONNECT_DATA:
