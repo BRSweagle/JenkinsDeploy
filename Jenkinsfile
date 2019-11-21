@@ -103,14 +103,6 @@ pipeline {
 			}
 			} //Sweagle versioining and validation
 			
-		stage ('Code'){ 
-		stages{
-    			
-			    stage('jUnit Test'){ 
-                steps {echo "Testing..."
-                     }
-                  }
-                  
                 stage('SonarQube'){ 
                 steps {sh 'sonar-scanner 55'
                      }
