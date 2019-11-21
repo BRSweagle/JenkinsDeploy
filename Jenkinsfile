@@ -137,13 +137,11 @@ pipeline {
     }
     
     stage (Functional) {
-        parallel {
        	          			
 			    stage('Selenium API'){ 
                 steps { echo "Selenium API..2..3..4"
                 		sleep(time:25,unit:"SECONDS")
                 		echo "Selenium API..2..3..4"
-                     }
                   }
                   
                 stage('Selenium UI'){ 
