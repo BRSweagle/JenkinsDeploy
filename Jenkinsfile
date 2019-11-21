@@ -146,6 +146,5 @@ pipeline {
     }
     
     }//Functional Testing
-    
- } //Outer Stages
+   
 } //Pipeline
